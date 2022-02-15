@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "25188460180",
+    "project_id": "vocablearningapp",
+    "storage_bucket": "vocablearningapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:25188460180:android:0530d06f7555b6fb2bb681",
+        "android_client_info": {
+          "package_name": "com.phattai1.learningenglishvocabularyapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "25188460180-iiimnkqiopg6hihb26rkbfm1uu28q07v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkTMkcG2RUjJ84iTns1Utmn-cmR8aJpHo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "25188460180-iiimnkqiopg6hihb26rkbfm1uu28q07v.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "25188460180-g84h1cci5n7umtu7heftqm7cut8h0rtv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.phattai1.learningenglishvocabularyapplication"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

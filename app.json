@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "EngPro",
+    "slug": "learning-english-vocabulary-application",
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "facebookAppId": "770244906991940",
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "sounds": [
+            "./assets/happy-bells.wav"
+          ],
+          "mode": "production"
+        }
+      ]
+    ],
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.phattai1.learningenglishvocabularyapplication",
+      "supportsTablet": true,
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.55896866433-u8rka9bk4c1ckbhhiupecuckf10vet99"
+        }
+      }
+    },
+    "android": {
+      "useNextNotificationsApi": true,
+      "icon": "./assets/icon.png",
+      "package": "com.phattai1.learningenglishvocabularyapplication",
+      "googleServicesFile": "./google-services.json",
+      "config": {
+        "googleSignIn": {
+          "apiKey": "AIzaSyDkTMkcG2RUjJ84iTns1Utmn-cmR8aJpHo",
+          "certificateHash": "BB:02:7E:7F:F6:C9:C7:6E:D0:5D:C8:D8:2A:BD:6A:28:D5:8F:60:9D"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "description": ""
+  }
+}
